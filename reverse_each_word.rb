@@ -13,6 +13,7 @@ def reverse_each_word(string)
   new_array = []
   parts = string.split(" ")
   reverse =  parts.collect { |part| part.reverse }.join(" ")
+  ba
 end
 
 reverse_each_word("Hello there, and how are you?")
