@@ -12,7 +12,8 @@ require 'pry'
 def reverse_each_word(string)
   new_array = []
   reverse =  string.split(" ").collect { |part| part.reverse }.join(" ")
-  binding.pry
+ 
 end
+ binding.pry
 
 reverse_each_word("Hello there, and how are you?")
