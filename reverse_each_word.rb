@@ -12,7 +12,8 @@ end
 def reverse_each_word(string)
   new_array = []
   parts = string.split(" ")
-  p parts.map { |part| part.reverse }
+  reverse =  parts.map { |part| part.reverse }
+  p reverse
 end
 
 reverse_each_word("Hello there, and how are you?")
