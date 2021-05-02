@@ -6,7 +6,7 @@ def reverse_each_word(string)
   parts.each do |part|
     new_string << part
   end
-  new_string
+  p new_string
 end
 
 reverse_each_word("Hello there, and how are you?")
